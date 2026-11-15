@@ -1,5 +1,9 @@
 # Calibrated LLM Evaluation & Quality Gates
 
+[![Calibrated LLM Evaluation cover: evidence validation and quality gates](https://getamesay-ml-cloud-ai.getgad-uss.chatgpt.site/assets/calibrated-llm-evaluation-cover.png)](https://getamesay-ml-cloud-ai.getgad-uss.chatgpt.site/#calibrated-llm-evaluation)
+
+*Cover illustration: the latency claim is an example, not a measured project result.*
+
 By Getamesay Zegeye
 
 An auditable evaluation harness for scoring citation support against exact supplied PDF excerpts.
