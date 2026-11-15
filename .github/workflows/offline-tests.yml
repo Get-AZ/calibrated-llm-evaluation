@@ -1,0 +1,28 @@
+name: Offline unit tests
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  offline-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Execution tests with synthetic inputs
+        working-directory: data/citation_v5_descriptive_runner_v1/tests
+        run: python -m unittest test_descriptive_runner.ExecutionTests -v
+
+      - name: Report metrics tests
+        run: python -m unittest discover -s data/citation_v5_descriptive_report_v1/tests -v
+
+      - name: Quality-check unit tests
+        run: python -m unittest discover -s data/citation_v5_offline_quality_checks_v1/tests -v
