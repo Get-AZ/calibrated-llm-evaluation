@@ -1,4 +1,4 @@
-﻿# Calibrated LLM Evaluation & Quality Gates
+# Calibrated LLM Evaluation & Quality Gates
 
 By Getamesay Zegeye
 
@@ -30,7 +30,7 @@ Cases are assistant-authored controlled examples across five document families, 
 
 This repository contains selected tools, tests and documentation. Local evaluation artifacts are excluded, so a fresh clone cannot reproduce the complete audit without those artifacts.
 
-Structural validity does not prove semantic support or complete claim coverage. Bias testing and broader five-criterion validation remain future work. Hosted CI has not been established.
+Structural validity does not prove semantic support or complete claim coverage. Bias testing and broader five-criterion validation remain future work. GitHub Actions passed 37 repository-only offline unit tests for commit bee8d80. Seven snapshot-dependent loader tests remain local. CI success does not establish semantic accuracy or promotion eligibility.
 
 ## Documentation
 
