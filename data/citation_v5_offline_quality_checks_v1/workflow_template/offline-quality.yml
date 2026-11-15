@@ -1,0 +1,23 @@
+name: Offline citation checks
+on: [workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m unittest discover -s data/citation_v5_offline_quality_checks_v1/tests -v
+      - run: python data/citation_v5_offline_quality_checks_v1/run_checks.py --project-root .
+  promotion-gate:
+    needs: integrity
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python data/citation_v5_offline_quality_checks_v1/run_checks.py --project-root . --mode promotion

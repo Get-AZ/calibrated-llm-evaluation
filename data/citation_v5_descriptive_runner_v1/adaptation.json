@@ -1,0 +1,31 @@
+{
+  "version": "v5-descriptive-runner-adaptation-v1",
+  "snapshot_freeze_manifest_sha256": "aa809bfcb96192a5c06d3a8fd61d5bef7be9edfc329cfb56a7d340184a7fe69f",
+  "snapshot_bundle_manifest_sha256": "a803e19e87ccae234b3fb00e0c873b4eb438132928879c9773e26be729b7973e",
+  "base_execution_sha256": "a98c94936b3b06ae0b379b063827b24c1e1e0a4508f017cba33795ef818473d3",
+  "execution_changes": [
+    {
+      "from": "citation-v5-development-runner-v1",
+      "to": "citation-v5-descriptive-runner-v1"
+    },
+    {
+      "from": "'exposed case development regression'",
+      "to": "'descriptive evaluation of 28 reviewed cases'"
+    },
+    {
+      "from": "results.glob('FINAL-CITE-*/attempt-*.started.json')",
+      "to": "results.glob('FRESH-V5-*/attempt-*.started.json')"
+    }
+  ],
+  "validator_hashes": {
+    "citation_evidence_contract_v5.py": "b69396d6e3f8cac8a7658916e372dfe6372b961fa5354d406f39908538f2f7c9",
+    "citation_evidence_pages_v5.py": "365f9c66df1eeacbf59d44f7b59151a1f8a69a49ba3f530efc02e825be52e9b5",
+    "citation_evidence_scoring_v5.py": "10ce9688031a12e8de941fba291cb49fdab86aef7bf029bcae69a521eb75378e"
+  },
+  "candidate_behavior_change": false,
+  "notes": [
+    "Only run identity and pacing discovery prefix adapted in execution code.",
+    "Model, generation settings, schema, instructions and validator bytes remain frozen.",
+    "Original 30-case acceptance attempt remains blocked."
+  ]
+}

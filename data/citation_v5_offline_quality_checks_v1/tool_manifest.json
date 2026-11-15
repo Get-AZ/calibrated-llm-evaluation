@@ -1,0 +1,25 @@
+{
+  "version": "citation-v5-offline-tool-manifest-v1",
+  "files": {
+    "README.md": {
+      "sha256": "fae98713713f886f0fab715fcc76627d183f700989ec79a568410a2111a36277",
+      "bytes": 2365
+    },
+    "policy.json": {
+      "sha256": "4ac5843b1335cc12b6cd31ca0e1b30c1d00e81175950c91cb07dde5c76276c25",
+      "bytes": 613
+    },
+    "run_checks.py": {
+      "sha256": "171520364ef9fbeb63857024ba385861a2bfee3a5f63e1c1c49b5ac682f82340",
+      "bytes": 10335
+    },
+    "tests/test_quality_checks.py": {
+      "sha256": "2daeaa894523f799114c91071a68032c7e66b3dc35442e73b13f8ca0d01faf16",
+      "bytes": 2561
+    },
+    "workflow_template/offline-quality.yml": {
+      "sha256": "4bf06923f1e07408b38f828dcc65bcf7ad56f9a8612255b96fab7d41b8f7d6a7",
+      "bytes": 757
+    }
+  }
+}

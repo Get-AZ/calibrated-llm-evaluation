@@ -1,0 +1,19 @@
+{
+  "version": "citation-project-documentation-v1",
+  "files": {
+    "INSTALL.md": {
+      "sha256": "59fddfe298b65cce149c94366d881dbe643972a7132fce8d6802b60160a4714d",
+      "bytes": 522
+    },
+    "README.md": {
+      "sha256": "419f1f54233c179af0c8600930521f79396812b1e7f3f773fbb3534184c63d82",
+      "bytes": 6671
+    },
+    "docs/TECHNICAL_CASE_STUDY.md": {
+      "sha256": "396fe32183440cd647be6c59a276e301fcc4bca0c644866789e1cf7ecb432d0f",
+      "bytes": 7364
+    }
+  },
+  "no_api_requests": true,
+  "candidate_promoted": false
+}

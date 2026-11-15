@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+.env
+private_data/
+
+# Local environments, credentials and generated artifacts
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.bak
+*.zip
+*.pdf
+*.log
+/data/

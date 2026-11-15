@@ -1,0 +1,13 @@
+{
+  "version": "citation-v5-offline-quality-policy-v1",
+  "scope": "Fixed V5 descriptive run; not a reusable model-promotion approval.",
+  "integrity_pass_is_quality_pass": false,
+  "use_postrun_amendments_for_promotion": false,
+  "no_second_reviewer_available": true,
+  "independent_human_agreement_measured": false,
+  "unresolved_review_case": "FRESH-V5-028",
+  "auditor_bindings": {
+    "data/citation_v5_descriptive_report_v1/tools/report_v5.py": "3e79958867308ab5fcd830ff04121fe8bc23c9e6d5ea33bd667d930d326dba62"
+  },
+  "protocol_sha256": "963cd8b812f2f3e375fbdd5c433507666f8a0455779666dd3f679c7be14aadf2"
+}
